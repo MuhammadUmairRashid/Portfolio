@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Umair Rashid |ummcode | Frontend Web Developer</title>
+    <meta name="description" content="A Frontend Web Developer building the Frontend of Websites and Web Applications" />
+    <meta name="author" content="Umair Rashid" />
+    <script defer src="script.js"></script>
+
+    <meta property="og:title" content="Umair Rashid |ummcode | Frontend Web Developer" />
+    <meta property="og:site_name" content="Umair Rashid Portfolio Website" />
+    <meta property="og:url" content="index.html" />
+    <meta property="og:description" content="A Frontend Web Developer building the Frontend of Websites and Web Applications" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="../i.ibb.co/C8Wnkrt/pretty-snap-2022-3-29-16-11.png" />
+
+    <!-- Particle JS for background -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&amp;display=swap" rel="stylesheet" />
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QD9ESD1D9K"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-QD9ESD1D9K");
+    </script>
+</head>
+
+<body>
+    <div id="particles-js"></div>
+
+    <!-- Navigation Bar -->
+<header class="header">
+  <div class="header__content">
+    <div class="header__logo-container">
+      <div class="header__logo-img-cont">
+        <img src="assets/jpeg/dp.jpeg" alt="Umair Rashid Logo" class="header__logo-img" />
+      </div>
+      <span class="header__logo-sub">Umair Rashid</span>
+    </div>
+
+    <!-- Mobile Menu Toggle -->
+    <div class="header__menu-toggle" id="mobileMenu">
+      <span class="header__menu-bar"></span>
+      <span class="header__menu-bar"></span>
+      <span class="header__menu-bar"></span>
+    </div>
+
+    <nav class="header__main" id="navLinks">
+      <ul class="header__links">
+        <li class="header__link-wrapper"><a href="index.html" class="header__link">Home</a></li>
+        <li class="header__link-wrapper"><a href="#about" class="header__link">About</a></li>
+        <li class="header__link-wrapper"><a href="#certification-section" class="header__link">Certificates</a></li>
+        <li class="header__link-wrapper"><a href="#projects" class="header__link">Projects</a></li>
+        <li class="header__link-wrapper"><a href="#contact" class="header__link">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+    <!-- Hero Section -->
+
+    
+    <section class="home-hero">
+      <div class="home-hero__content">
+        <h1 class="heading-primary">Hi, I'm Umair Rashid</h1>
+        <p class="text-primary">A Result-Oriented Web Developer building and managing Websites and Web Applications</p>
+        
+      </div>
+    </section>
+    <button id="backToTopBtn" onclick="scrollToTop()">Top</button>
+    <!-- About Section -->
+    <section id="about" class="about sec-pad">
+      <div class="main-container">
+        <h2 class="heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main">About Me</span>
+          <span class="heading-sec__sub">Here you will find more information about me</span>
+        </h2>
+        <div class="about__content">
+          <div class="about__content-main">
+            <h3 class="about__content-title">Explore me</h3>
+            <p class="about__content-details-para">
+              I'm a <strong>Frontend Web Developer</strong> work according to modern needs and enhance products with great knowledge of <strong>Marketing and Designing</strong>. Check my work in the <strong>Projects</strong> section.
+            </p>
+          </div>
+          <div class="about__content-skills">
+            <h3 class="about__content-title">My Skills</h3>
+            <div class="skills">
+              <div class="skills__skill">HTML</div>
+              <div class="skills__skill">CSS</div>
+              <div class="skills__skill">JavaScript</div>
+              <div class="skills__skill">React</div>
+              <div class="skills__skill">SASS</div>
+              <div class="skills__skill">GIT</div>
+              <div class="skills__skill">Github</div>
+              <div class="skills__skill">Responsive Design</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="certification-section" class="certification-section">
+        <h2 class="certification-title">My Certifications</h2>
+        <div class="certification-grid">
+          <a href="https://freecodecamp.org/certification/MuhammadUmairRashid/responsive-web-design" 
+             target="_blank" class="certification-card">
+            <img src="assets/svg/rwd.png" alt="Responsive Web Design">
+            <span>Responsive Web Design</span>
+          </a>
+          <a href="https://freecodecamp.org/certification/MuhammadUmairRashid/responsive-web-design" 
+             target="_blank" class="certification-card">
+            <img src="assets/svg/js.png" alt="JavaScript Certification">
+            <span>JavaScript Certification</span>
+          </a>
+          <a href="https://freecodecamp.org/certification/MuhammadUmairRashid/responsive-web-design" 
+             target="_blank" class="certification-card">
+            <img src="assets/svg/libra.png" alt="Other Certification">
+            <span>Other Certification</span>
+          </a>
+        </div>
+      </div>
+      
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">Projects</span>
+          <span class="heading-sec__sub">Here you will find some of the personal projects I created to enhance my skills</span>
+        </h2>
+
+        <div class="projects__content">
+          <div class="projects__row">
+            <img src="assets/jpeg/Cash register.png" alt="Cash Register Project" class="projects__row-img" loading="lazy" />
+            <h3 class="projects__row-content-title">Cash Register</h3>
+          </div>
+          <div class="projects__row">
+            <img src="assets/jpeg/Roman numeral converter.png" alt="Roman Numeral Converter" class="projects__row-img" loading="lazy" />
+            <h3 class="projects__row-content-title">Roman Numeral Converter</h3>
+          </div>
+          <div class="projects__row">
+            <img src="assets/jpeg/Search app.png" alt="Pokemon Search App" class="projects__row-img" loading="lazy" />
+            <h3 class="projects__row-content-title">Pokemon Search App</h3>
+          </div>
+          <div class="projects__row">
+            <img src="assets/jpeg/Quote machine.png" alt="Quote Machine" class="projects__row-img" loading="lazy" />
+            <h3 class="projects__row-content-title">Random Quote Machine</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact sec-pad dynamicBg">
+      <div class="main-container">
+        <h2 class="heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main heading-sec__main--lt">Reach Out</span>
+          <span class="heading-sec__sub heading-sec__sub--lt">Feel free to reach out by submitting the form below. I will get back to you as soon as possible.</span>
+        </h2>
+        <div class="contact__form-container">
+          <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="56bf1652-9fb6-4b64-b9cf-5adc9d6ed13e">
+
+            <div class="contact__form-field">
+              <label for="name" class="contact__form-label">Name</label>
+              <input type="text" class="contact__form-input" name="name" id="name" placeholder="Enter Your Name" required />
+            </div>
+            <div class="contact__form-field">
+              <label for="email" class="contact__form-label">Email</label>
+              <input type="email" class="contact__form-input" name="email" id="email" placeholder="Enter Your Email" required />
+            </div>
+            <div class="contact__form-field">
+              <label for="message" class="contact__form-label">Message</label>
+              <textarea name="message" id="message" class="contact__form-input" cols="30" rows="10" placeholder="Enter Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn--theme contact__btn">Forward</button>
+          </form>
+        
+      </div>
+      
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-2">
+            <h2 class="heading heading-sm text-lt">Umair Rashid</h2>
+            <p class="main-footer__short-desc">
+              A Frontend Web Developer crafting user-friendly websites and web applications that drive product success. <br>
+              Email: <a href="mailto:umairrashid2222@gmail.com">umairrashid2222@gmail.com</a> <br>
+              Contact: <a href="tel:+923197550256">0319-7550256</a>
+            </p>
+          </div>
+        </div>
+        <div class="main-footer__lower">
+          &copy; Copyright
+          <script>document.write(new Date().getFullYear());</script>
+          . Made by Umair Rashid
+        </div>
+      </div>
+    </footer>
+    <script>
+      const mobileMenu = document.getElementById("mobileMenu");
+      const navLinks = document.getElementById("navLinks");
+  
+      mobileMenu.addEventListener("click", () => {
+        navLinks.classList.toggle("show");
+      });
+    
+  // Smooth Scroll on anchor click
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+      e.preventDefault();
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+        behavior: 'smooth'
+      });
+    });
+  });
+
+  // Back to Top Button
+  window.onscroll = function() {
+    let backToTopBtn = document.getElementById("backToTopBtn");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+      backToTopBtn.style.display = "block";
+    } else {
+      backToTopBtn.style.display = "none";
+    }
+  };
+
+  function scrollToTop() {
+    window.scrollTo({top: 0, behavior: 'smooth'});
+  }
+</script>
+
+</body>
+
+</html>
